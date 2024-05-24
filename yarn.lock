@@ -1679,6 +1679,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@rails/actioncable@^7.0.8-3":
+  version "7.0.8-3"
+  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.8-3.tgz#e5102f9e745bdb4092d6a2f8c4b76af5b16967b3"
+  integrity sha512-DU90ZH2Rc2SUbDcCIaoqGR3ZQQ5ZLpwV0qeJcLE1z3lv5FGLG4a7lv6UJKj9Fb06CWEg52Bg9elaehEhBmh4bQ==
+
 "@remix-run/router@1.16.1":
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.16.1.tgz#73db3c48b975eeb06d0006481bde4f5f2d17d1cd"
