@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify'
 import { fetchVideos, voteVideo } from '../services/api';
 import Video from '../components/Video';
