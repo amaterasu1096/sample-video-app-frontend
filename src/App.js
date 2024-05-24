@@ -1,4 +1,6 @@
 import './App.scss';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
 import ShareVideo from './pages/ShareVideo'
@@ -12,6 +14,18 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/share" element={<ShareVideo />} />
       </Routes>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </BrowserRouter>
   );
 }
